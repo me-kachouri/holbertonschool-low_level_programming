@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - the main function
+ * main - main function
  * Description: test last digit of n
  * Return: void
  */
@@ -18,13 +18,13 @@ int main(void)
 	/* your code goes there */
 	int x = n % 10;
 
-	if (x > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, x);
-	}
-	else if (x == 0)
+	if (x == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, x);
+	}
+	else if (x > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, x);
 	}
 	else
 	{
