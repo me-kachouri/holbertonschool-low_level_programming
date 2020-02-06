@@ -5,8 +5,8 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - main function
- * Description: tests the last digit of n
+ * main - the main function
+ * Description: test last digit of n
  * Return: void
  */
 int main(void)
@@ -16,20 +16,19 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int ld = n % 10;
+	int x = n % 10;
 
-	if (ld > 5)
+	if (x > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
+		printf("Last digit of %d is %d and is greater than 5\n", n, x);
 	}
-	else if (ld == 0)
+	else if (x == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, ld);
+		printf("Last digit of %d is %d and is 0\n", n, x);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
 	}
 	return (0);
 }
-
