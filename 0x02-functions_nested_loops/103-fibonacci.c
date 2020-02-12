@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -9,7 +8,7 @@
 int main(void)
 {
 int i;
-unsigned long a = 1, b = 2, s = 0, x = 2;
+int a = 1, b = 2, s = 0, x = 2;
 while (s <= 4000000)
 {
 if (s % 2 == 0)
@@ -18,6 +17,6 @@ s = a + b;
 a = b;
 b = s;
 }
-printf("%li\n", x);
+printf("%i\n", x);
 return (0);
 }
