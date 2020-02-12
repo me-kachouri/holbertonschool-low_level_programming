@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - print the first 50 fibonacci numbers
+ * main - print sum of all even fibonacci numbers under 4000000
  * Return: 0
  */
 
 int main(void)
 {
 int i;
-unsigned long a = 1, b = 2, s, x = 2;
-while (s < 4000000)
+unsigned long a = 1, b = 2, s = 0, x = 2;
+while (s <= 4000000)
 {
 s = a + b;
 if (s % 2 == 0)
