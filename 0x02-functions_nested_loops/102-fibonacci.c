@@ -9,9 +9,9 @@
 int main(void)
 {
 int i;
-long int a = 0, b = 1, s;
+long int a = 1, b = 2, s;
 printf("1, 2\n");
-for (i = 0; i < 50; i++)
+for (i = 2; i < 50; i++)
 {
 s = a + b;
 a = b;
