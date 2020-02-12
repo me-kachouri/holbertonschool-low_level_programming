@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - print the sum of all multiples of 3 or 5
+ * main - print the first 50 fibonacci numbers
  * Return: 0
  */
 
 int main(void)
 {
 int i;
-long int a = 1, b = 2, s;
+long int a = 0, b = 1, s;
 printf("1, 2\n");
-for (i = 4; i < 50; i++)
+for (i = 0; i < 50; i++)
 {
 s = a + b;
 a = b;
