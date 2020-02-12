@@ -9,8 +9,8 @@
 int main(void)
 {
 int i;
-long int a = 1, b = 2, s;
-printf("1, 2\n");
+unsigned long a = 1, b = 2, s;
+printf("1, 2, ");
 for (i = 1; i < 49; i++)
 {
 s = a + b;
