@@ -11,12 +11,12 @@ int main(void)
 int i;
 long int a = 1, b = 2, s;
 printf("1, 2\n");
-for (i = 2; i < 50; i++)
+for (i = 1; i < 49; i++)
 {
 s = a + b;
 a = b;
 b = s;
-if (i < 49)
+if (i < 48)
 printf("%li, ", s);
 else
 printf("%li", s);
