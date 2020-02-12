@@ -7,16 +7,17 @@
 
 int main(void)
 {
-int i;
-int a = 1, b = 2, s = 0, x = 2;
+unsigned long s = 0, a = 1, b = 2, x = 2;
 while (s <= 4000000)
 {
+s = a + b;
 if (s % 2 == 0)
 x += s;
-s = a + b;
+
 a = b;
 b = s;
 }
-printf("%i\n", x);
+printf("%lu\n", x);
 return (0);
 }
+
