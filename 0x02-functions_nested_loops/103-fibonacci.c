@@ -12,11 +12,11 @@ int i;
 unsigned long a = 1, b = 2, s = 0, x = 2;
 while (s <= 4000000)
 {
-s = a + b;
-a = b;
 b = s;
 if (s % 2 == 0)
 x += s;
+s = a + b;
+a = b;
 }
 printf("%li\n", x);
 return (0);
