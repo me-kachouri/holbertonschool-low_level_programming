@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - print diagonal line
- * @n: number of \
+ * print_triangle - print mirrored triangle
+ * @size: size of triangle
  * Return: void
  */
 
