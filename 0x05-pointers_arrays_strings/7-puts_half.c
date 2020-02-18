@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * puts_half - prints second half of string
@@ -12,9 +11,7 @@ void puts_half(char *str)
 int i = 0, j = 0, n;
 while (str[i] != '\0')
 i++;
-printf("%d\n", i);
 i -= 1;
-printf("%d\n", i);
 n = i / 2;
 for (j = n + 1; j <= i; j++)
 {
